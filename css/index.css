@@ -1,0 +1,306 @@
+.ecommerce {
+    display: table-table;
+    width: 1280px;
+    margin-left: 70px;
+}
+
+.games {
+    display: table-cell;
+}
+
+.carrinho {
+    display: table-cell;
+    width: 262px;
+}
+
+.classification {
+    width: 262px;
+    display: table-cell;
+}
+.games-order {
+    width: 262px;
+    height:40px;
+    border: 1px solid #E1E1E1;
+    font-size: 14px;
+    text-align: left;
+    font-family: 'Open Sans';
+    color: #423B3B;
+    padding: 4px;
+}
+
+.title {
+    margin-bottom: 55px;
+}
+
+.title-page{
+    display: table-cell;
+    width: 160px;
+    height: 65px;
+    font-family: 'Open Sans', Semibold;
+    text-align: center;
+    font-size: 48px;
+    color:#363636;
+    padding-right: 424px;
+}
+
+.product-list {
+    display: table;
+}
+
+.image-game {
+    width: 180px;
+    height: 180px;
+    padding-left: 41px;
+    padding-right: 41px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    cursor: pointer;
+}
+
+.div-image-game {
+    height: 230px;
+    width: 262px;
+    background-color: #EEEEEE;
+    margin-right: 31px;
+}
+
+.div-image-name {
+    display:table-row;
+}
+.div-game-price {
+    display:table-row;
+}
+
+.div-data-game {
+    width: 262px;
+    height: 44px;
+    margin-right: 31px;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-name-game {
+    color:#746A6A;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Open Sans';
+}
+
+.div-price-game {
+    color:#3486E6;
+    font-size :16px;
+    text-align: center;
+    font-family: 'Open Sans';
+}
+
+.add-carrinho {
+    color:#3486E6;
+    font-size :16px;
+    text-align: center;
+    font-family: 'Open Sans';
+
+}
+
+.box-pay {
+    width: 262px;
+    height: 325px;
+    border: 1px solid #E1E1E1;
+}
+
+
+.subscript-carrinho {
+    color: #746A6A;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Open Sans';
+}
+
+.image-add-carrinho {
+    width: 154px;
+    height:72px ;
+}
+
+
+.box-carrinho {
+    padding-left: 55px;
+    padding-right: 30px;
+    padding-top: 55px;
+    padding-bottom: 18px;
+
+}
+
+
+.title-carrinho {
+    color: #363636;
+    font-size: 18px;
+    text-align: left;
+    font-family: 'Open Sans';
+    font-weight: bold;  
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
+
+
+.finalizar-compra {
+    background-color: #54A3FF;
+    border: 1px solid #54A3FF;
+    width: 238px;
+    height: 50px; 
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Open Sans';
+}
+
+.grid-total {
+	display: grid;
+}
+
+.item-grid-total {
+	margin: 5px;
+	text-align: left;
+    color:#7F7575;
+    font-size: 14px;
+    font-family: 'Open Sans';
+}
+
+.image-game-thumb {
+    width: 41px;
+    height: 42px;
+}
+
+.box-data-carrinho {
+    padding-top: 19px;
+}
+
+.div-row  {
+    display: table-row;
+}
+
+.div-column {
+    display: table-cell;
+    height: 230px;
+    width: 262px;
+    padding-bottom: 41px;
+}
+
+
+.item-img { 
+    width:60px; 
+    height:53px;    
+    padding-left: 10px;
+    padding-right: 9px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+   }
+
+.leftbox { 
+    float:left; 
+    width:60px; 
+    height:53px; 
+    margin-right: 10px;
+} 
+
+.rightbox { 
+    float:left; 
+    width:152px; 
+    height:53px; 
+} 
+
+.rightbox1{ 
+    float:left; 
+    width:136px; 
+    height:26px; 
+    font-size: 14px;
+    font-family: 'Open Sans';
+} 
+
+.rightbox2{ 
+    float:left; 
+    width:128px; 
+    height:25px; 
+    font-size: 14px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+} 
+
+.item {
+    height:53px;
+    width: 231px;
+    padding-bottom: 10px;
+}
+
+.grid-totalizadores {
+    height:22px;
+    width: 231px;
+    padding-left: 20px;
+}
+
+
+.desc-subtotal { 
+    float:left; 
+    width:60px; 
+    margin-right: 10px;
+} 
+
+.valor-subtotal { 
+    float:left; 
+    width:152px; 
+} 
+
+.desc-frete {
+    float:left; 
+    width:60px; 
+    margin-right: 10px;
+}
+
+.valor-frete {
+    float:left; 
+    width:152px; 
+}
+
+.desc-total {
+    float:left; 
+    width:60px; 
+    margin-right: 10px;
+}
+
+.valor-total {
+    float:left; 
+    width:152px; 
+    font-size: 20px;
+    font-family: 'Open Sans';
+    color:#423B3B;
+    font-weight: bold;
+    text-align: right;
+}
+
+.desc-totalizador {
+    color:#7F7575;
+    font-size: 14px;
+    font-family: 'Open Sans';
+}
+.valores-totalizador {
+    font-size: 16px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    color:#423B3B;
+    text-align: right;
+
+}
+
+.row-totalizadores {
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+
+.botao-finalizar-compra {
+    padding-bottom: 13px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.remover-game {
+    cursor: pointer;
+}

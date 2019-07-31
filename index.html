@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/index.css">   
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/underscore-min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <title>LOJA DE GAMES</title>
+</head>
+<body>
+    <div>
+        <div class='ecommerce'>            
+            <div class='games'>
+                <div class='title'>
+                    <div class='title-page'>Games</div>
+                    <div class='classification'>
+                        <select  class='games-order'>
+                            <option value="score"  data-order = 'desc'>Mais populares</option>
+                            <option value="price" data-order = 'asc'>Menor Preço</option>
+                            <option value="price"  data-order = 'desc'>Maior Preço</option>
+                            <option value="name"  data-order = 'asc'>Classificar A-Z</option>
+                            <option value="name"  data-order = 'desc'>Classificar Z-A</option>
+                        </select>
+                    </div>        
+                </div>
+                <div class='product-list' id='productList'></div>
+            </div>
+            <div class='carrinho'>
+                <div class='box-pay'>
+                    <div class='title-carrinho'>Carrinho<span class='cart total-itens'></span></div>
+                    <div class='box-data-carrinho'> 
+                        <div class='box-carrinho'>
+                            <img class='image-add-carrinho' src='images/cart-icon.svg'>
+                        </div>
+                        <div class='subscript-carrinho'>Até o momento,<br/>o seu carrinho está vazio</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
